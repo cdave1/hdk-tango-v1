@@ -7,7 +7,7 @@
 //
 
 #import "hdImageView.h"
-#include "hdk.h"
+#include <hdk/hdk.h>
 @implementation hdImageView
 
 @synthesize currentImagePath = _currentImagePath;

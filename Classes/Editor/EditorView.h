@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#include "hdInput.h"
+#include <hdk/hdInput.h>
 
 @interface EditorView : NSOpenGLView
 {

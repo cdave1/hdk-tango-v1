@@ -10,7 +10,7 @@
 #ifndef _HD_INTERFACE_BUILDER_UTILITIES_
 #define _HD_INTERFACE_BUILDER_UTILITIES_
 
-#include "hdk.h"
+#include <hdk/hdk.h>
 
 extern void hdDrawGameObjectHandles(hdGameObject* gameObject);
 

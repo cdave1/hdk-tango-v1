@@ -8,8 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 #import <Quartz/Quartz.h>
-#import "hdk.h"
-#import "hdIB.h"
+#import <hdk/hdk.h>
+#import <hdk/hdIB.h>
 
 @interface IBPropertyWindow : NSWindowController 
 {

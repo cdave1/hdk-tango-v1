@@ -8,8 +8,8 @@
 
 #include <GLUT/glut.h>
 
-#include "hdk.h"
-#include "hdIB.h"
+#include <hdk/hdk.h>
+#include <hdk/hdIB.h>
 
 #include "hdInterfaceBuilderUtilities.h"
 
@@ -289,7 +289,7 @@ private:
 	hdPolygon* m_currentLayerPolygon;
 	
 	// list of unique textures of all worlds loaded.
-	std::map<string, string> uniqueTextures;
+    std::map<std::string, std::string> uniqueTextures;
 };
 
 

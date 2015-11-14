@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegateMenu.h"
-#import "hdk.h"
+#import <hdk/hdk.h>
 #import "InterfaceBuilder.h"
 
 @implementation AppDelegate (MainMenuCategory)

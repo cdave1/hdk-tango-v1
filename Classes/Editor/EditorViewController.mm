@@ -7,7 +7,7 @@
 //
 
 #import "EditorViewController.h"
-#import "hdGraphicsLibrary.h"
+#import <hdk/hdGraphicsLibrary.h>
 #import "InterfaceBuilder.h"
 
 @interface EditorViewController ()

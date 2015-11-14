@@ -3,17 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* Application.xib */; };
 		6362D56F11881AE300184AE0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6362D56E11881AE300184AE0 /* OpenGL.framework */; };
 		6362D7131188E9CC00184AE0 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6362D7121188E9CC00184AE0 /* AppDelegate.mm */; };
-		6362D7221188EA0700184AE0 /* paths_osx.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6362D7211188EA0700184AE0 /* paths_osx.xcconfig */; };
-		6362D7371188EA4C00184AE0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6362D7361188EA4C00184AE0 /* Info.plist */; };
-		6362D7D11189953E00184AE0 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6362D7D01189953E00184AE0 /* libz.1.2.3.dylib */; };
-		6362D7F71189955300184AE0 /* libpng12.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6362D7F61189955300184AE0 /* libpng12.0.dylib */; };
 		6362D8771189955D00184AE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
 		6362D87A1189957C00184AE0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6362D8791189957C00184AE0 /* AudioToolbox.framework */; };
 		6362D87C1189957C00184AE0 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6362D87B1189957C00184AE0 /* CoreAudio.framework */; };
@@ -44,7 +40,6 @@
 		63D60DB5118C188000436B7D /* TextureImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 63D60DB4118C188000436B7D /* TextureImage.mm */; };
 		63D60ED8118C310C00436B7D /* TextureImageBrowserView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 63D60ED7118C310C00436B7D /* TextureImageBrowserView.mm */; };
 		63D60FE4118D178700436B7D /* NSImageView+Extensions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 63D60FE3118D178700436B7D /* NSImageView+Extensions.mm */; };
-		63D6FC28118BB11A00D76242 /* libhdkOSX_32.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D6FC00118BB0CA00D76242 /* libhdkOSX_32.a */; };
 		63FBBE6E11C1DD0700C2377F /* README in Resources */ = {isa = PBXBuildFile; fileRef = 63FBBE6D11C1DD0700C2377F /* README */; };
 		63FBC0E611C5DD7800C2377F /* newImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FBC0E511C5DD7800C2377F /* newImage.png */; };
 		63FBC3D511C6D88800C2377F /* IBButtonPropertyWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 63FBC3D411C6D88700C2377F /* IBButtonPropertyWindow.mm */; };
@@ -53,6 +48,8 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E41C07661BF7DD640032DEC6 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E41C07651BF7DD640032DEC6 /* libz.1.2.5.tbd */; };
+		E41C07691BF7DDBD0032DEC6 /* libhdkOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6362D7291188EA2600184AE0 /* libhdkOSX.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,26 +60,12 @@
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = hdkOSX;
 		};
-		6362DA77118995A600184AE0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6362D7241188EA2600184AE0 /* hdkOSX.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6362DA72118995A600184AE0;
-			remoteInfo = "hdkOSX copy";
-		};
-		63D6FBFF118BB0CA00D76242 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6362D7241188EA2600184AE0 /* hdkOSX.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 63D6FBFD118BB0CA00D76242;
-			remoteInfo = "hdkOSX_64 copy";
-		};
-		63D6FC0E118BB10F00D76242 /* PBXContainerItemProxy */ = {
+		E41C07671BF7DDB80032DEC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6362D7241188EA2600184AE0 /* hdkOSX.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 63D6FA1D118BB0CA00D76242;
-			remoteInfo = hdkOSX_32;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = hdkOSX;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -157,6 +140,8 @@
 		63FBC3DC11C7143700C2377F /* IBPropertyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IBPropertyWindow.h; path = Classes/Editor/IBPropertyWindow.h; sourceTree = "<group>"; };
 		63FBC3DD11C7143700C2377F /* IBPropertyWindow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = IBPropertyWindow.mm; path = Classes/Editor/IBPropertyWindow.mm; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Tango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tango.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41C07631BF7DD5B0032DEC6 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		E41C07651BF7DD640032DEC6 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,12 +149,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D6FC28118BB11A00D76242 /* libhdkOSX_32.a in Frameworks */,
+				E41C07691BF7DDBD0032DEC6 /* libhdkOSX.a in Frameworks */,
+				E41C07661BF7DD640032DEC6 /* libz.1.2.5.tbd in Frameworks */,
 				6362D8771189955D00184AE0 /* Foundation.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				6362D56F11881AE300184AE0 /* OpenGL.framework in Frameworks */,
-				6362D7D11189953E00184AE0 /* libz.1.2.3.dylib in Frameworks */,
-				6362D7F71189955300184AE0 /* libpng12.0.dylib in Frameworks */,
 				6362D87A1189957C00184AE0 /* AudioToolbox.framework in Frameworks */,
 				6362D87C1189957C00184AE0 /* CoreAudio.framework in Frameworks */,
 				6362D87E1189957C00184AE0 /* OpenAL.framework in Frameworks */,
@@ -273,6 +257,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E41C07651BF7DD640032DEC6 /* libz.1.2.5.tbd */,
+				E41C07631BF7DD5B0032DEC6 /* libz.1.tbd */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
@@ -299,8 +285,6 @@
 			isa = PBXGroup;
 			children = (
 				6362D7291188EA2600184AE0 /* libhdkOSX.a */,
-				6362DA78118995A600184AE0 /* libhdkOSX_64.a */,
-				63D6FC00118BB0CA00D76242 /* libhdkOSX_32.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -467,7 +451,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				63D6FC0F118BB10F00D76242 /* PBXTargetDependency */,
+				E41C07681BF7DDB80032DEC6 /* PBXTargetDependency */,
 			);
 			name = Tango;
 			productInstallPath = "$(HOME)/Applications";
@@ -480,9 +464,16 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tango" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* OpenGL */;
 			projectDirPath = "";
 			projectReferences = (
@@ -506,20 +497,6 @@
 			remoteRef = 6362D7281188EA2600184AE0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6362DA78118995A600184AE0 /* libhdkOSX_64.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libhdkOSX_64.a;
-			remoteRef = 6362DA77118995A600184AE0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		63D6FC00118BB0CA00D76242 /* libhdkOSX_32.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libhdkOSX_32.a;
-			remoteRef = 63D6FBFF118BB0CA00D76242 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -529,8 +506,6 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* Application.xib in Resources */,
-				6362D7221188EA0700184AE0 /* paths_osx.xcconfig in Resources */,
-				6362D7371188EA4C00184AE0 /* Info.plist in Resources */,
 				6362DACE118A1FC200184AE0 /* MainWindow.xib in Resources */,
 				6362DB4B118A27D600184AE0 /* EditorViewController.xib in Resources */,
 				63D60D1F118BEDE500436B7D /* IBImagePropertyWindow.xib in Resources */,
@@ -577,10 +552,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		63D6FC0F118BB10F00D76242 /* PBXTargetDependency */ = {
+		E41C07681BF7DDB80032DEC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = hdkOSX_32;
-			targetProxy = 63D6FC0E118BB10F00D76242 /* PBXContainerItemProxy */;
+			name = hdkOSX;
+			targetProxy = E41C07671BF7DDB80032DEC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -609,7 +584,7 @@
 			baseConfigurationReference = 6362D7211188EA0700184AE0 /* paths_osx.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -628,11 +603,10 @@
 					"$(inherited)",
 					/Developer/SDKs/MacOSX10.5.sdk/usr/X11/lib,
 				);
-				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Tango;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -641,7 +615,7 @@
 			baseConfigurationReference = 6362D7211188EA0700184AE0 /* paths_osx.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -657,37 +631,37 @@
 					"$(inherited)",
 					/Developer/SDKs/MacOSX10.5.sdk/usr/X11/lib,
 				);
-				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Tango;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SDKROOT = macosx10.5;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6362D7211188EA0700184AE0 /* paths_osx.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6362D7211188EA0700184AE0 /* paths_osx.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
